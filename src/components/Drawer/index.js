@@ -27,12 +27,13 @@ const Header = styled.header`
 
 const Item = styled.a`
   color: ${p => p.theme.palette.secondary.contrast};
-  padding: ${p => p.theme.size(1)} ${p => p.theme.size(2)};
+  padding: ${p => p.theme.size(1)};
   transition: background-color 0.1s ease-out;
+  cursor: pointer;
   &:hover {
     background: ${p => p.theme.palette.secondary.dark};
   }
-  cursor: pointer;
+
 `;
 
 // Static data to keep it simple
